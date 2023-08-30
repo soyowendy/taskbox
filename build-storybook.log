@@ -1,0 +1,88 @@
+$ storybook build --output-dir /tmp/chromatic--46320-MIbFm3mm8FSL
+@storybook/cli v7.0.6
+
+info => Cleaning outputDir: /tmp/chromatic--46320-MIbFm3mm8FSL
+info => Loading presets
+info => Building manager..
+info => Manager built (197 ms)
+info => Copying static files: /home/souowendy/Documentos/Misc/taskbox/node_modules/@storybook/manager/static at /tmp/chromatic--46320-MIbFm3mm8FSL/sb-common-assets
+info => Copying static files: /home/souowendy/Documentos/Misc/taskbox/public at /tmp/chromatic--46320-MIbFm3mm8FSL/
+vite v4.2.2 building for production...
+
+./sb-common-assets/fonts.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+transforming...
+Use of eval in "node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
+Use of eval in "node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
+✓ 1670 modules transformed.
+rendering chunks...
+warnings when minifying css:
+▲ [WARNING] CSS nesting syntax is not supported in the configured target environment ("chrome87", "edge88", "es2020", "firefox78", "safari14") [unsupported-css-nesting]
+
+    <stdin>:36:2:
+      36 │   *vertical-align: middle;
+         ╵   ^
+
+
+▲ [WARNING] Expected identifier but found whitespace [css-syntax-error]
+
+    <stdin>:36:18:
+      36 │   *vertical-align: middle;
+         ╵                   ^
+
+
+▲ [WARNING] Unexpected ";" [css-syntax-error]
+
+    <stdin>:36:25:
+      36 │   *vertical-align: middle;
+         ╵                          ^
+
+
+computing gzip size...
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/iframe.html                                          12.58 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/percolate-dac75269.ttf                        34.04 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/percolate-ec979d96.woff                       34.11 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/percolate-5ed633c2.eot                        34.21 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/percolate-d13fa91b.svg                       140.51 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/preview-7623e708.css                           6.91 kB │ gzip:   2.07 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/index-d475d2ea.js                              0.21 kB │ gzip:   0.17 kB │ map:     0.82 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/_commonjs-dynamic-modules-302442b1.js          0.30 kB │ gzip:   0.24 kB │ map:     0.12 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/WithTooltip-FBT32F6Q-951abff7.js               0.55 kB │ gzip:   0.32 kB │ map:     0.11 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/syntaxhighlighter-QTQ2UBB4-60e0d3c5.js         0.57 kB │ gzip:   0.35 kB │ map:     0.12 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/index-6d7aa4ee.js                              0.62 kB │ gzip:   0.38 kB │ map:     4.27 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/preview-0435c720.js                            0.69 kB │ gzip:   0.49 kB │ map:     3.78 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/_commonjsHelpers-042e6b4d.js                   0.78 kB │ gzip:   0.44 kB │ map:     0.11 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/index-4d501b15.js                              0.80 kB │ gzip:   0.52 kB │ map:     4.07 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/index-356e4a49.js                              0.81 kB │ gzip:   0.51 kB │ map:     3.25 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/preview-bba9db56.js                            0.83 kB │ gzip:   0.50 kB │ map:     1.23 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/preview-b1164a2e.js                            0.88 kB │ gzip:   0.58 kB │ map:     2.79 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/preview-885a3aa3.js                            1.06 kB │ gzip:   0.69 kB │ map:     3.11 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/preview-bb5acd95.js                            2.38 kB │ gzip:   1.26 kB │ map:    10.23 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/index-d37d4223.js                              2.63 kB │ gzip:   1.30 kB │ map:     7.45 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/preview-f96f0111.js                            3.29 kB │ gzip:   1.41 kB │ map:    10.07 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/Task.stories-0f56a601.js                       3.56 kB │ gzip:   1.55 kB │ map:     4.72 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/preview-2a930295.js                            3.78 kB │ gzip:   1.80 kB │ map:    14.37 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/iframe-a034e087.js                             4.92 kB │ gzip:   1.71 kB │ map:     5.52 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/index-f1f749bf.js                              7.25 kB │ gzip:   2.96 kB │ map:    15.67 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/preview-62235626.js                            7.69 kB │ gzip:   1.60 kB │ map:    13.68 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/preview-e6f1f377.js                            7.97 kB │ gzip:   3.03 kB │ map:    28.16 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/index-078d3f98.js                             10.06 kB │ gzip:   3.66 kB │ map:    26.47 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/GlobalScrollAreaStyles-XIHNDKUY-d70a5c91.js   10.53 kB │ gzip:   2.40 kB │ map:    15.70 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/preview-8e084d2f.js                           11.13 kB │ gzip:   3.76 kB │ map:    41.75 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/Color-3YIJY6X7-ad73a651.js                    31.11 kB │ gzip:  11.69 kB │ map:   112.34 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/TaskList.stories-a8783c2b.js                  40.28 kB │ gzip:  13.91 kB │ map:   233.54 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/OverlayScrollbars-VAV6LJAB-f0699eb9.js        59.11 kB │ gzip:  25.35 kB │ map:   277.20 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/_getPrototype-ad889add.js                     78.82 kB │ gzip:  23.65 kB │ map:   324.42 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/index-96c5f47c.js                            134.19 kB │ gzip:  43.27 kB │ map:   326.66 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/config-c5897f1e.js                           213.66 kB │ gzip:  66.39 kB │ map:   802.48 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/InboxScreen.stories-7c628c9c.js              258.03 kB │ gzip:  60.60 kB │ map:   919.32 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/index-7fd7b4cd.js                            337.22 kB │ gzip:  99.41 kB │ map: 1,430.20 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/DocsRenderer-7FRJXR4N-7c3e1d82.js            504.82 kB │ gzip: 166.16 kB │ map: 1,435.22 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/axe-41d76881.js                              535.59 kB │ gzip: 146.90 kB │ map: 1,918.41 kB
+../../../../../tmp/chromatic--46320-MIbFm3mm8FSL/assets/formatter-S4K5WUZV-d5c7d0d5.js               601.76 kB │ gzip: 185.09 kB │ map: 1,315.96 kB
+
+(!) Some chunks are larger than 500 kBs after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 15.29s
+info => Output directory: /tmp/chromatic--46320-MIbFm3mm8FSL
